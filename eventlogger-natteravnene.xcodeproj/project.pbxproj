@@ -8,35 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		4138DE052AAF9CAD00D89312 /* eventlogger_natteravneneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138DE042AAF9CAD00D89312 /* eventlogger_natteravneneApp.swift */; };
-		4138DE072AAF9CAD00D89312 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138DE062AAF9CAD00D89312 /* ContentView.swift */; };
 		4138DE092AAF9CAE00D89312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4138DE082AAF9CAE00D89312 /* Assets.xcassets */; };
 		4138DE0C2AAF9CAE00D89312 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4138DE0B2AAF9CAE00D89312 /* Preview Assets.xcassets */; };
-		4138DE142AAF9F7600D89312 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4138DE132AAF9F7600D89312 /* GoogleService-Info.plist */; };
 		4138DE172AAFA05000D89312 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 4138DE162AAFA05000D89312 /* FirebaseDatabase */; };
 		4138DE192AAFA05000D89312 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4138DE182AAFA05000D89312 /* FirebaseDatabaseSwift */; };
-		4138DE202AAFA23400D89312 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138DE1F2AAFA23400D89312 /* Report.swift */; };
-		4138DE222AAFA27F00D89312 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138DE212AAFA27F00D89312 /* ReportView.swift */; };
-		4138DE282AAFA29000D89312 /* NumberInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138DE232AAFA29000D89312 /* NumberInputView.swift */; };
-		4138DE2A2AAFA29000D89312 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138DE252AAFA29000D89312 /* HeaderView.swift */; };
-		4138DE2B2AAFA29000D89312 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138DE262AAFA29000D89312 /* TextEditorView.swift */; };
-		4138DE2C2AAFA29000D89312 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138DE272AAFA29000D89312 /* LogInView.swift */; };
-		4138DE2E2AAFA2AA00D89312 /* ReportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138DE2D2AAFA2AA00D89312 /* ReportViewModel.swift */; };
+		41AC31672AAFAB980093F7B1 /* ReportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC31662AAFAB980093F7B1 /* ReportViewModel.swift */; };
+		41AC31692AAFABED0093F7B1 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC31682AAFABED0093F7B1 /* ReportView.swift */; };
+		41AC316B2AAFAC250093F7B1 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC316A2AAFAC250093F7B1 /* HeaderView.swift */; };
+		41AC316D2AAFAC560093F7B1 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC316C2AAFAC560093F7B1 /* LogInView.swift */; };
+		41AC316F2AAFAC810093F7B1 /* NumberInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC316E2AAFAC810093F7B1 /* NumberInputView.swift */; };
+		41AC31712AAFACB00093F7B1 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC31702AAFACB00093F7B1 /* TextEditorView.swift */; };
+		41AC31732AAFACF10093F7B1 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC31722AAFACF10093F7B1 /* Report.swift */; };
+		41AC31782AAFAD700093F7B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41AC31772AAFAD700093F7B1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4138DE012AAF9CAD00D89312 /* eventlogger-natteravnene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eventlogger-natteravnene.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4138DE042AAF9CAD00D89312 /* eventlogger_natteravneneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventlogger_natteravneneApp.swift; sourceTree = "<group>"; };
-		4138DE062AAF9CAD00D89312 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4138DE082AAF9CAE00D89312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4138DE0B2AAF9CAE00D89312 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4138DE132AAF9F7600D89312 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		4138DE1F2AAFA23400D89312 /* Report.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Report.swift; path = "../../../msc project/theEventLogger/theEventLogger/Model/Report.swift"; sourceTree = "<group>"; };
-		4138DE212AAFA27F00D89312 /* ReportView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportView.swift; path = "../../../msc project/theEventLogger/theEventLogger/Views/ReportView.swift"; sourceTree = "<group>"; };
-		4138DE232AAFA29000D89312 /* NumberInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberInputView.swift; path = "../../../msc project/theEventLogger/theEventLogger/Views/NumberInputView.swift"; sourceTree = "<group>"; };
-		4138DE252AAFA29000D89312 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeaderView.swift; path = "../../../msc project/theEventLogger/theEventLogger/Views/HeaderView.swift"; sourceTree = "<group>"; };
-		4138DE262AAFA29000D89312 /* TextEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextEditorView.swift; path = "../../../msc project/theEventLogger/theEventLogger/Views/TextEditorView.swift"; sourceTree = "<group>"; };
-		4138DE272AAFA29000D89312 /* LogInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogInView.swift; path = "../../../msc project/theEventLogger/theEventLogger/Views/LogInView.swift"; sourceTree = "<group>"; };
-		4138DE2D2AAFA2AA00D89312 /* ReportViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportViewModel.swift; path = "../../../msc project/theEventLogger/theEventLogger/ViewModel/ReportViewModel.swift"; sourceTree = "<group>"; };
+		41AC31662AAFAB980093F7B1 /* ReportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewModel.swift; sourceTree = "<group>"; };
+		41AC31682AAFABED0093F7B1 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		41AC316A2AAFAC250093F7B1 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		41AC316C2AAFAC560093F7B1 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		41AC316E2AAFAC810093F7B1 /* NumberInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberInputView.swift; sourceTree = "<group>"; };
+		41AC31702AAFACB00093F7B1 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
+		41AC31722AAFACF10093F7B1 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		41AC31752AAFAD3D0093F7B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		41AC31772AAFAD700093F7B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../.Trash/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,13 +70,10 @@
 		4138DE032AAF9CAD00D89312 /* eventlogger-natteravnene */ = {
 			isa = PBXGroup;
 			children = (
+				41AC31742AAFAD340093F7B1 /* Other */,
 				4138DE1C2AAFA1B800D89312 /* ViewModel */,
 				4138DE1B2AAFA19800D89312 /* Views */,
 				4138DE1A2AAFA18800D89312 /* Model */,
-				4138DE042AAF9CAD00D89312 /* eventlogger_natteravneneApp.swift */,
-				4138DE062AAF9CAD00D89312 /* ContentView.swift */,
-				4138DE082AAF9CAE00D89312 /* Assets.xcassets */,
-				4138DE132AAF9F7600D89312 /* GoogleService-Info.plist */,
 				4138DE0A2AAF9CAE00D89312 /* Preview Content */,
 			);
 			path = "eventlogger-natteravnene";
@@ -94,7 +90,7 @@
 		4138DE1A2AAFA18800D89312 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4138DE1F2AAFA23400D89312 /* Report.swift */,
+				41AC31722AAFACF10093F7B1 /* Report.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -102,11 +98,11 @@
 		4138DE1B2AAFA19800D89312 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4138DE212AAFA27F00D89312 /* ReportView.swift */,
-				4138DE252AAFA29000D89312 /* HeaderView.swift */,
-				4138DE272AAFA29000D89312 /* LogInView.swift */,
-				4138DE232AAFA29000D89312 /* NumberInputView.swift */,
-				4138DE262AAFA29000D89312 /* TextEditorView.swift */,
+				41AC31682AAFABED0093F7B1 /* ReportView.swift */,
+				41AC316A2AAFAC250093F7B1 /* HeaderView.swift */,
+				41AC316C2AAFAC560093F7B1 /* LogInView.swift */,
+				41AC316E2AAFAC810093F7B1 /* NumberInputView.swift */,
+				41AC31702AAFACB00093F7B1 /* TextEditorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,9 +110,20 @@
 		4138DE1C2AAFA1B800D89312 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				4138DE2D2AAFA2AA00D89312 /* ReportViewModel.swift */,
+				41AC31662AAFAB980093F7B1 /* ReportViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		41AC31742AAFAD340093F7B1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				41AC31772AAFAD700093F7B1 /* GoogleService-Info.plist */,
+				4138DE042AAF9CAD00D89312 /* eventlogger_natteravneneApp.swift */,
+				4138DE082AAF9CAE00D89312 /* Assets.xcassets */,
+				41AC31752AAFAD3D0093F7B1 /* GoogleService-Info.plist */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,7 +193,7 @@
 			files = (
 				4138DE0C2AAF9CAE00D89312 /* Preview Assets.xcassets in Resources */,
 				4138DE092AAF9CAE00D89312 /* Assets.xcassets in Resources */,
-				4138DE142AAF9F7600D89312 /* GoogleService-Info.plist in Resources */,
+				41AC31782AAFAD700093F7B1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,15 +204,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4138DE072AAF9CAD00D89312 /* ContentView.swift in Sources */,
-				4138DE282AAFA29000D89312 /* NumberInputView.swift in Sources */,
+				41AC316D2AAFAC560093F7B1 /* LogInView.swift in Sources */,
+				41AC31732AAFACF10093F7B1 /* Report.swift in Sources */,
 				4138DE052AAF9CAD00D89312 /* eventlogger_natteravneneApp.swift in Sources */,
-				4138DE2E2AAFA2AA00D89312 /* ReportViewModel.swift in Sources */,
-				4138DE222AAFA27F00D89312 /* ReportView.swift in Sources */,
-				4138DE202AAFA23400D89312 /* Report.swift in Sources */,
-				4138DE2C2AAFA29000D89312 /* LogInView.swift in Sources */,
-				4138DE2B2AAFA29000D89312 /* TextEditorView.swift in Sources */,
-				4138DE2A2AAFA29000D89312 /* HeaderView.swift in Sources */,
+				41AC31672AAFAB980093F7B1 /* ReportViewModel.swift in Sources */,
+				41AC316F2AAFAC810093F7B1 /* NumberInputView.swift in Sources */,
+				41AC316B2AAFAC250093F7B1 /* HeaderView.swift in Sources */,
+				41AC31712AAFACB00093F7B1 /* TextEditorView.swift in Sources */,
+				41AC31692AAFABED0093F7B1 /* ReportView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +342,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"eventlogger-natteravnene/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Use of location for reports";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Use of location for reports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -364,6 +372,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"eventlogger-natteravnene/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Use of location for reports";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Use of location for reports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
