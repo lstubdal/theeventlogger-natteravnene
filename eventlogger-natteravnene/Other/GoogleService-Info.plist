@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyD8GxrmO20uyVW5qmi-fFo6y-L0mE0bG6U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>13724161757</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.lstubdal.eventlogger-natteravnene</string>
+	<key>PROJECT_ID</key>
+	<string>eventlogger-natteravnene</string>
+	<key>STORAGE_BUCKET</key>
+	<string>eventlogger-natteravnene.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:13724161757:ios:fa9c1267bbf7044e9ded34</string>
+	<key>DATABASE_URL</key>
+	<string>https://eventlogger-natteravnene-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
