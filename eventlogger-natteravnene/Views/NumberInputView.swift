@@ -9,7 +9,7 @@ import SwiftUI
 
 struct NumberInputView: View {
     let title: String
-    @Binding var value: Int
+    @Binding var value: Int // @Binding to assign value from input 
     
     /*
      create formatter to empty field before value assigned source: https://stackoverflow.com/questions/75927413/swiftui-textfields-with-integer
@@ -22,7 +22,6 @@ struct NumberInputView: View {
     
     
     var body: some View {
-        // number of people involved
     HStack  {
             Text(title)
                 .font(.system(size: 22))

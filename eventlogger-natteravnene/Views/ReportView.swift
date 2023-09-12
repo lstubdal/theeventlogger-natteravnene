@@ -1,17 +1,17 @@
 //
-//  NewReportView.swift
+//  ReportView.swift
 //  theEventLogger
 //
-//  Created by Lotte Stubdal on 04/08/2023.
+//  Created by Lotte Stubdal on 11/09/2023.
 //
 
 import SwiftUI
 import CoreLocation
 
 struct ReportView: View {
-    let locationManager = CLLocationManager()
-    
+    let locationManager = CLLocationManager()  // location manager object
     @ObservedObject var vm = ReportViewModel() // new vm object
+    
     @State var currentAge: Int = 0
     @State var currentNumberOfPeople: Int = 0
     @State var currentLogger: String = "Type here"
@@ -47,13 +47,7 @@ struct ReportView: View {
         case ok = "All OK/other"
         var id: Self { self }
     }
-    
-    var numberFormatter: NumberFormatter = {
-        var currentNumber = NumberFormatter() //set type to integer
-        currentNumber.zeroSymbol = "" // Hide number before assigned value
-        return currentNumber
-    }()
-    
+
     var body: some View {
         ScrollView {
             HeaderView(title: "New report", description: "Type in details about the event")
@@ -143,7 +137,7 @@ struct ReportView: View {
             HStack {
                 Text("Name of logger")
                     .font(.system(size: 21))
-                TextField(" ", text: $currentLogger)
+                TextField("" , text: $currentLogger)
                     .background(Color.black.opacity(0.05))
                     .cornerRadius(8)
                     .padding()
@@ -163,6 +157,7 @@ struct ReportView: View {
             .foregroundColor(.white)
             .cornerRadius(10)
         }
+        .offset(y: -70)
     }
 }
 

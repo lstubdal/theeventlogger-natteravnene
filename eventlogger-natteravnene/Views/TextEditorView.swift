@@ -27,6 +27,7 @@ struct TextEditorView: View {
                 .background(Color.black.opacity(0.05))
                 .cornerRadius(7)
         }
+        .padding()
     }
 }
 

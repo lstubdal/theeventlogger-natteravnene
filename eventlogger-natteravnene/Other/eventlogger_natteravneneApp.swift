@@ -28,6 +28,7 @@ struct YourApp: App {
   var body: some Scene {
     WindowGroup {
       NavigationView {
+        // show report form by default
         ReportView()
       }
     }

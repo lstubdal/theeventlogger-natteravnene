@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct HeaderView: View {
+    // reusable variables
     let title: String
     let description: String
     
@@ -27,10 +28,10 @@ struct HeaderView: View {
             }
             .offset(y: -20)
         }
-        .frame(width: 450, height: 250)
+        .frame(width: 450, height: 300)
         .background(Color.accentColor)
         .foregroundColor(.white)
-        .offset(y: -55)
+        .offset(y: -70)
     }
 }
 

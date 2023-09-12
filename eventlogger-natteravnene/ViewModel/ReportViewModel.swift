@@ -25,13 +25,13 @@ class ReportViewModel: ObservableObject {
         
         ref.child("\(report.id)").setValue(newJsonReport) // push to database with unique ID as key
     }
-
+    
+    // add reference
     func requestUserLocation() {
         // get access to location
         locationManager.startMonitoringSignificantLocationChanges() // significant location changes
-        locationManager.requestWhenInUseAuthorization()
+        locationManager.requestWhenInUseAuthorization()  // ask user for permission
         locationManager.startUpdatingLocation()
-        print("request started from vm")
         
         // access coordinates for location
         guard let locValue: CLLocationCoordinate2D = locationManager.location?.coordinate else { return }
