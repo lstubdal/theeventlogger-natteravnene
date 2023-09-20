@@ -11,9 +11,7 @@ struct NumberInputView: View {
     let title: String
     @Binding var value: Int // @Binding to assign value from input 
     
-    /*
-     create formatter to empty field before value assigned source: https://stackoverflow.com/questions/75927413/swiftui-textfields-with-integer
-     */
+    // format defualt 0 value to blanc
     var numberFormatter: NumberFormatter = {
         var currentNumber = NumberFormatter() //set type to integer
         currentNumber.zeroSymbol = "" // Hide number before assigned value
@@ -28,7 +26,7 @@ struct NumberInputView: View {
             TextField("Type in", value: $value, formatter: numberFormatter)
                 .background(Color.black.opacity(0.05))
                 .cornerRadius(7)
-                .keyboardType(UIKeyboardType.numberPad)
+                .keyboardType(UIKeyboardType.numberPad) // display number keyboard
                 
                 .multilineTextAlignment(.center)
                 .font(.system(size: 20))
