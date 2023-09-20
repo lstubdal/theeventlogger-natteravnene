@@ -132,7 +132,7 @@ struct ReportView: View {
             }
             
             // description of characteristics
-            TextEditorView(title: "Characteristics", description: "˜Describe person with a few words ", textInput: $currentCharacteristics)
+            TextEditorView(title: "Characteristics", description: "Describe person with a few words ", textInput: $currentCharacteristics)
             
             // description of event
             TextEditorView(title: "Description of event", description: "Describe the event with a few words", textInput: $currentDescriptionEvent)
