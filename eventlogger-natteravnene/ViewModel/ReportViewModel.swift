@@ -15,7 +15,6 @@ class ReportViewModel: ObservableObject {
     let locationManager = CLLocationManager() // initialize manager
     private let ref = Database.database().reference() // root of database
     
-    // add reference
     func sendToDatabase(_ report: Report) {
         requestUserLocation() // access user location when report is sent in
         
@@ -40,3 +39,4 @@ class ReportViewModel: ObservableObject {
         locationManager.stopUpdatingLocation() // stop updating after accessing location info
     }
 }
+
