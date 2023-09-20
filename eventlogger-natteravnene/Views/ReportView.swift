@@ -12,6 +12,7 @@ struct ReportView: View {
     let locationManager = CLLocationManager()  // location manager object
     @ObservedObject var vm = ReportViewModel() // new vm object
     
+    // input variables
     @State var currentAge: Int = 0
     @State var currentNumberOfPeople: Int = 0
     @State var currentLogger: String = "Type here"
@@ -21,11 +22,13 @@ struct ReportView: View {
     @State var currentCharacteristics: String = ""
     @State var currentDescriptionEvent : String = ""
     
+    // dataset of genders
     enum Gender: String, CaseIterable, Identifiable {
         case male, female, other
         var id: Self { self }
     }
-
+    
+    // dataset of type of assistance
     enum Assistance: String, CaseIterable, Identifiable {
         case intoxicatedPerson = "Intoxicated person"
         case injuredPerson = "Injured person"
@@ -36,6 +39,7 @@ struct ReportView: View {
         var id: Self { self }
     }
     
+    // dataset of type of observation
     enum Observation: String, CaseIterable, Identifiable {
         case theft
         case possiblePirateTaxi = "Possible pirate taxi"
@@ -62,7 +66,7 @@ struct ReportView: View {
                     Picker("Gender", selection: $currentGender){
                         Text("Male").tag(Gender.male)
                         Text("Female").tag(Gender.female)
-                        Text("Other").tag(Gender.other) // relevant?
+                        Text("Other").tag(Gender.other)
                     }
                     .padding()
                     .pickerStyle(.segmented)
@@ -96,7 +100,7 @@ struct ReportView: View {
                     Form {
                         Picker("Select type ", selection: $currentAssistance) {
                             ForEach(Assistance.allCases, id: \.rawValue) { item in
-                                Text(item.rawValue.capitalized).tag(item)
+                                Text(item.rawValue.capitalized).tag(item) // raw value as in variable name
                             }
                         }
                         .padding()
@@ -128,7 +132,7 @@ struct ReportView: View {
             }
             
             // description of characteristics
-            TextEditorView(title: "Characteristics", description: "Describe person with a few words ", textInput: $currentCharacteristics)
+            TextEditorView(title: "Characteristics", description: "˜Describe person with a few words ", textInput: $currentCharacteristics)
             
             // description of event
             TextEditorView(title: "Description of event", description: "Describe the event with a few words", textInput: $currentDescriptionEvent)
@@ -148,7 +152,8 @@ struct ReportView: View {
             
             Divider()
                 .padding()
-   
+            
+            // use vm instance to call sendToDatabase function
             Button("Send report", action: {
                 vm.sendToDatabase(Report(logger: currentLogger, age: currentAge, gender: currentGender.rawValue, assistance: currentAssistance.rawValue, charactheristics: currentCharacteristics, description: currentDescriptionEvent, numberOfPeople: currentNumberOfPeople, observation: currentObservation.rawValue))
             })
