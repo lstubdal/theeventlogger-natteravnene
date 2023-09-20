@@ -25,7 +25,6 @@ class ReportViewModel: ObservableObject {
         ref.child("\(report.id)").setValue(newJsonReport) // push to database with unique ID as key
     }
     
-    // add reference
     func requestUserLocation() {
         // get access to location
         locationManager.startMonitoringSignificantLocationChanges() // significant location changes
