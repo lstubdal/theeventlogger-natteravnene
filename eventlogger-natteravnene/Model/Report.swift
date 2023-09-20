@@ -6,8 +6,6 @@
 //
 
 import Foundation
-import FirebaseDatabase
-import FirebaseDatabaseSwift
 
 struct Report: Identifiable, Codable {
     var id = UUID() // automatic generated id
@@ -20,3 +18,5 @@ struct Report: Identifiable, Codable {
     var numberOfPeople: Int
     var observation: String
 }
+
+
